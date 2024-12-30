@@ -1,15 +1,14 @@
-const { Client } = require('pg');
+const { Client } = require("pg");
 
 const client = new Client({
-    user: 'avnadmin',
-    host: 'sudeepdb-sudeepkudari0-c5ef.a.aivencloud.com',
-    database: 'defaultdb',
-    password: 'AVNS_VcEc6RAlUGOVSpBko6b',
-    port: 19956,
-    ssl: {
-        rejectUnauthorized: false,
-    },
-})
+  user: "a",
+  host: ".com",
+  database: "defaultdb",
+  password: "",
+  port: 19956,
+  ssl: {
+    rejectUnauthorized: false,
+  },
+});
 
 module.exports = client;
-   
